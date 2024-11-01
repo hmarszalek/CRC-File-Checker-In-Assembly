@@ -15,7 +15,7 @@ This project implements a CRC (Cyclic Redundancy Code) checksum calculator for f
 
 To use this program, you will need an x86-64 assembler such as NASM. Follow these steps to compile and run the program:
 
-1. **Install NASM:** if you haven't already. You can install them using your package manager. For example, on Ubuntu:
+1. **Install NASM:** if you haven't already. You can install it using your package manager. For example, on Ubuntu:
 
     ```bash
     sudo apt-get install nasm
@@ -38,7 +38,7 @@ Replace `<file>` with the desired input file and `<crc_poly>` with the CRC polyn
 
 ## Code Structure
 
-The assembly code is organized into several key sections that work together to calculate the CRC checksum for files with fragmented data. Below is an overview of the main components:
+The assembly code is organized into several key sections. Below is an overview of the main components:
 
 -   **Data Section**: This section defines variables and buffers needed for file handling, input storage, and CRC calculation. It includes:
 
